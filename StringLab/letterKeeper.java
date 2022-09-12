@@ -1,42 +1,42 @@
 public class letterKeeper {
-    private int firstCount;
-    private int secondCount;
-    private int thirdCount;
-    private int fourthCount;
-    private int fifthCount;
+    private String firstCount;
+    private String secondCount;
+    private String thirdCount;
+    private String fourthCount;
+    private String fifthCount;
 
-    public void setCount1(int plusOne){
-        this.firstCount++;
+    void setCount1(String most){
+        this.firstCount = most;
     }
-    public void setCount2(int plusOne){
-        this.secondCount++;
-    }
-
-    public void setCount3(int plusOne){
-        this.thirdCount++;
+    void setCount2(String most){
+        this.secondCount = most;
     }
 
-    public void setCount4(int plusOne){
-        this.fourthCount++;
+    void setCount3(String most){
+        this.thirdCount = most;
     }
 
-    public void setCount5(int plusOne){
-        this.fifthCount++;
+     void setCount4(String most){
+        this.fourthCount = most;
     }
 
-    public int getCount1(){
+    void setCount5(String most){
+        this.fifthCount = most;
+    }
+
+    String getCount1(){
         return firstCount;
     }
-    public int getCount2(){
+    String getCount2(){
         return secondCount;
     }
-    public int getCount3(){
+    String getCount3(){
         return thirdCount;
     }
-    public int getCount4(){
+    String getCount4(){
         return fourthCount;
     }
-    public int getCount5(){
+    String getCount5(){
         return fifthCount;
     }
 }
