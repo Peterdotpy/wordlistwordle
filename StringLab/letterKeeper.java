@@ -1,10 +1,11 @@
-public class letterKeeper {
+import java.util.List;
+public class letterKeeper{
     private String firstCount;
     private String secondCount;
     private String thirdCount;
     private String fourthCount;
     private String fifthCount;
-
+    public List<String> wordList;
     void setCount1(String most){
         this.firstCount = most;
     }
@@ -16,14 +17,13 @@ public class letterKeeper {
         this.thirdCount = most;
     }
 
-     void setCount4(String most){
+    void setCount4(String most){
         this.fourthCount = most;
     }
 
     void setCount5(String most){
         this.fifthCount = most;
     }
-
     String getCount1(){
         return firstCount;
     }
@@ -39,4 +39,5 @@ public class letterKeeper {
     String getCount5(){
         return fifthCount;
     }
+
 }
