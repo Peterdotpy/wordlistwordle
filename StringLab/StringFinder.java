@@ -51,7 +51,13 @@ public class StringFinder
            if(word.substring(0,1).equalsIgnoreCase("a") );
                 a++;
            }
-       System.out.println(a);
+       System.out.println(a); // stuck here because whenever printing a it shows 14855 which is the total word list number need fix here****
+
+        //calculate the most frequent letter in each slot then assemble it as word.
+
+
+
+
            }
 
 
